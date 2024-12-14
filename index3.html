@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .box-1{
+            position: relative;
+            background-color: grey;
+            height: 500px;
+            width: 800px;
+            border: 1px solid black;
+        }
+        .box-2{
+            position: absolute;
+            top: 140px;
+            left: 160px;
+            background-color: rgb(175, 105, 105);
+            height: 200px;
+            width: 400px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="box-1">
+        box-1
+        <div class="box-2">
+        box-2
+        </div>
+        
+    </div>
 </body>
 </html>
